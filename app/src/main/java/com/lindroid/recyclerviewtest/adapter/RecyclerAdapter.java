@@ -1,4 +1,4 @@
-package com.lindroid.recyclerviewtest;
+package com.lindroid.recyclerviewtest.adapter;
 
 import android.content.Context;
 import android.support.v7.widget.RecyclerView;
@@ -6,6 +6,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import com.lindroid.recyclerviewtest.R;
 
 import java.util.List;
 
@@ -65,7 +67,7 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.ViewHo
      */
     public interface OnItemClickListener{
 
-        public void onItemClick(View view, int position);
+        void onItemClick(View view, int position);
 
     }
 
