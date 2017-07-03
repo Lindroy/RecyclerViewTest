@@ -1,5 +1,6 @@
 package com.lindroid.swiperecyclerview;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -27,12 +28,14 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         titles = Arrays.asList(getResources().getStringArray(R.array.main_item));
         lvTitle.setAdapter(new ArrayAdapter<>(this, android.R.layout.simple_list_item_1,
                 titles));
+        lvTitle.setOnItemClickListener(this);
     }
 
     @Override
     public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
         switch (position) {
             case 0:
+                startActivity(new Intent(this, AllMenuActivity.class));
                 break;
         }
     }
