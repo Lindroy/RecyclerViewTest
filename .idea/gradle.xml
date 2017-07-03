@@ -12,6 +12,7 @@
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/radiobutton" />
             <option value="$PROJECT_DIR$/recyclerviewlearning" />
+            <option value="$PROJECT_DIR$/swiperecyclerview" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

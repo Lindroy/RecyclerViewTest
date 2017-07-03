@@ -1,1 +1,1 @@
-include ':app', ':recyclerviewlearning', ':radiobutton'
+include ':app', ':recyclerviewlearning', ':radiobutton', ':swiperecyclerview'
