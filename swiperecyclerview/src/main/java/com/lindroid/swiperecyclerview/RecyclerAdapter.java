@@ -51,7 +51,7 @@ public class RecyclerAdapter extends SwipeMenuAdapter<RecyclerAdapter.ViewHolder
         RecyclerView.LayoutParams lp = new RecyclerView.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT,
                 ViewGroup.LayoutParams.WRAP_CONTENT);
         final ViewHolder holder = new ViewHolder(realContentView);
-//        holder.view.setLayoutParams(lp);
+        holder.view.setLayoutParams(lp);
         holder.view.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
